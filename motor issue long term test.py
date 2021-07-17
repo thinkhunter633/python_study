@@ -1,5 +1,5 @@
 '''
-This project simulate random supply temprature
+This project simulate random supply temprature to long term test
 '''
 
 #Import Library
