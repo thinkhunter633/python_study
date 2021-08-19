@@ -9,11 +9,12 @@ import time
 
 import BAC0
 from ede_AS70 import *
-#from ede357 import *
+from ede_POS367 import *
+from ede_POS357 import *
 
 # Test initdata define
 # adapter_ip = '192.168.1.109/24'  # outgoing BACnet adapter of this PC /24 means subnet mask 255.255.255.0
-adapter_ip = '192.168.31.105/24'   #run python pc
+adapter_ip = '192.168.31.100/24'   #run python pc
 
 # create a logfile
 def createlog(filepath, testname):
@@ -134,7 +135,7 @@ def bacNorObj(obj, printInfo = True):
     if printInfo:
         hugo = namestr(obj, globals())
         print('Log: write ' + hugo[0] + ' = ' + 'OOS')
-    
+
 
 def bacSimIn(obj, val):
     # Simulate (input) object bia BACnet

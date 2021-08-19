@@ -1,6 +1,6 @@
 # This is data showing all objects from a CPU re formatted from an EDE list
 
-device_ip = '192.168.31.106' + " " # don't forget the blank
+device_ip = '192.168.31.105' + " " # don't forget the blank
 
 NwkPortIP = device_ip + 'positiveIntegerValue 0'
 DiagAs = device_ip + 'analogValue 0'
